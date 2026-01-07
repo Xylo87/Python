@@ -34,3 +34,7 @@
 -- ('106', 'William', '3', '2012-09-11', 'Dermatologist', '30000', NULL), 
 -- ('107', 'Richard', '4', '2014-08-21', 'Garnacologist', '32000', NULL), 
 -- ('108', 'Karen', '4', '2011-10-17', 'Radiologist', '30000', NULL);
+
+-- SELECT D.*, H.Hospital_Name
+-- FROM Doctor AS D
+-- INNER JOIN Hospital AS H ON H.Hospital_Id = D.Hospital_ID
